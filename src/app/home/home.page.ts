@@ -18,7 +18,7 @@ export class HomePage implements OnInit {
   }
 
   ngOnInit() {
-    const routeBaño = ref(this.database, "casa/Baño");
+    const routeBaño = ref(this.database, "casa/BaÃ±o");
     object(routeBaño).subscribe(attributes => {
       this.estadoBano = attributes.snapshot.val();
     });
